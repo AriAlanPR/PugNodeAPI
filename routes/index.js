@@ -5,7 +5,7 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
     console.log(req.query);
 
-    res.render('netsuite_tba', {
+    res.render('index', {
         title: 'Netsuite TBA Authorization lo js View',
         data: JSON.stringify(req.query)
     });
