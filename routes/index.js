@@ -6,7 +6,7 @@ router.get('/', function(req, res, next) {
     console.log(req.query);
 
     res.render('index', {
-        title: 'Netsuite TBA Authorization lo js View',
+        title: 'Test Node REST Services View',
         data: JSON.stringify(req.query)
     });
 });
