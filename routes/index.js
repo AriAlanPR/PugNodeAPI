@@ -18,4 +18,8 @@ router.post('/', function(req, res){
     res.json(req.body);
 });
 
+router.get('/xmldata', function(req, res, next) {
+    
+});
+
 module.exports = router;
