@@ -14,7 +14,6 @@ router.get('/', function(req, res, next) {
 router.post('/', function(req, res){
     console.log(req.body);
 
-    //magensa.PostNetsuite(req.body);
     res.json(req.body);
 });
 
